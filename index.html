@@ -1576,12 +1576,13 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Lista 1 - DinÃƒÂ¢mica atmosfÃƒÂ©rica</h1>
+<h1 class="title toc-ignore">Lista 1 - Dinamica atmosferica</h1>
 
 </div>
 
 
-<p>Leonardo Yoshiaki Kamigauti - 8556530</p>
+<p>Autor: Leonardo Yoshiaki Kamigauti</p>
+<p>A seguinte lista de exercicios pode ser encontrada <a href="http://www.dca.iag.usp.br/material/mafdsdia/AGM5713/Lista%201%20-%202019.pdf">aqui</a></p>
 <p>O seguinte código é separado em seções que se referem a cada questão da lista e uma seção de preparação (setup).</p>
 <div id="setup" class="section level2">
 <h2>Setup</h2>
@@ -1589,12 +1590,12 @@ $(document).ready(function () {
 <pre class="r"><code>setwd('G:/My Drive/Aulas/Doc/Dinamica')
 library(readr)
 library(tidyverse)</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.2.1 --</code></pre>
 <pre><code>## v ggplot2 3.0.0     v purrr   0.2.5
 ## v tibble  1.4.2     v dplyr   0.7.6
 ## v tidyr   0.8.1     v stringr 1.3.1
 ## v ggplot2 3.0.0     v forcats 0.3.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------------- tidyverse_conflicts() --
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <p>Aqui segue a importação da tabela de dados e uma tabela “base” para a grade de interpolação, além da definição de duas funções, um que transforma dados de vetor em uma matriz correspondente à grade, e outra que desfaz este processo.</p>
